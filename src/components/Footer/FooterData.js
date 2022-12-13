@@ -1,355 +1,365 @@
 const FooterData = {
-    CompanyWidget: [
-        {
-            id: 1,
-            title: "Get In Touch",
-            description: "Don’t miss any updates of our new templates and extensions.!",
-        }
-    ],
-    AboutWidget: [
-        {
-          id: 1,
-          title: "Download",
-          menuItems: [
-              {
-                id: 1,
-                url: '/Comedores',
-                text: 'Comedores Asitenciales',
-              },
-              {
-                id: 2,
-                url: '#',
-                text: 'Android App',
-              },
-              {
-                id: 3,
-                url: '#',
-                text: 'ios App',
-              },
-              {
-                id: 4,
-                url: '#',
-                text: 'Desktop',
-              },
-              {
-                id: 5,
-                url: '#',
-                text: 'Projects',
-              },
-              {
-                  id: 6,
-                  url: '#',
-                  text: 'My tasks',
-              },
-          ],
+   CompanyWidget: [
+      {
+         id: 1,
+         title: 'Get In Touch',
+         description:
+            'Don’t miss any updates of our new templates and extensions.!',
       },
+   ],
+   AboutWidget: [
       {
-            id: 2,
-            title: "Help",
-            menuItems: [
-                {
-                  id: 1,
-                  url: '#',
-                  text: 'FAQ',
-                },
-                {
-                  id: 2,
-                  url: '#',
-                  text: 'Term & conditions',
-                },
-                {
-                  id: 3,
-                  url: '#',
-                  text: 'Reporting',
-                },
-                {
-                  id: 4,
-                  url: '#',
-                  text: 'Documentation',
-                },
-                {
-                  id: 5,
-                  url: '#',
-                  text: 'Support Policy',
-                },
-                {
-                    id: 6,
-                    url: '#',
-                    text: 'Privacy',
-                  },
-            ],
-        },
-    ],
-    termsCondition: [
-      {
-          id: 1,
-          title: "Team Solutions",
-          menuItems: [
+         id: 1,
+         title: 'Download',
+         menuItems: [
             {
-              id: 1,
-              url: '#',
-              text: 'Support',
+               id: 1,
+               url: '/Comedores',
+               text: 'Comedores Asitenciales',
             },
             {
-              id: 2,
-              url: '#',
-              text: 'Sales',
+               id: 2,
+               url: '#',
+               text: 'Android App',
             },
             {
-              id: 3,
-              url: '#',
-              text: 'Report Abuse',
+               id: 3,
+               url: '#',
+               text: 'ios App',
             },
             {
-              id: 4,
-              url: '#',
-              text: 'System Status',
-            }
-        ],
-      }
-    ],
-    SocialLinks: [
-        {
-            id: 1,
-            title: "Team Solutions",
-            menuItems: [
-                {
-                  id: 1,
-                  url: '#',
-                  icon: 'ti-facebook',
-                },
-                {
-                  id: 2,
-                  url: '#',
-                  icon: 'ti-twitter-alt',
-                },
-                {
-                  id: 3,
-                  url: '#',
-                  icon: 'ti-vimeo-alt',
-                },
-                {
-                  id: 4,
-                  url: '#',
-                  icon: 'ti-pinterest',
-                }
-            ]
-        }
-    ],
-    socialIcon:[
-      {
-        id: 1,
-        url: 'https://www.facebook.com/',
-        icon: 'ti-facebook',
+               id: 4,
+               url: '#',
+               text: 'Desktop',
+            },
+            {
+               id: 5,
+               url: '#',
+               text: 'Projects',
+            },
+            {
+               id: 6,
+               url: '#',
+               text: 'My tasks',
+            },
+         ],
       },
       {
-        id: 2,
-        url: '#',
-        icon: 'ti-twitter-alt',
+         id: 2,
+         title: 'Help',
+         menuItems: [
+            {
+               id: 1,
+               url: '#',
+               text: 'FAQ',
+            },
+            {
+               id: 2,
+               url: '#',
+               text: 'Term & conditions',
+            },
+            {
+               id: 3,
+               url: '#',
+               text: 'Reporting',
+            },
+            {
+               id: 4,
+               url: '#',
+               text: 'Documentation',
+            },
+            {
+               id: 5,
+               url: '#',
+               text: 'Support Policy',
+            },
+            {
+               id: 6,
+               url: '#',
+               text: 'Privacy',
+            },
+         ],
+      },
+   ],
+   termsCondition: [
+      {
+         id: 1,
+         title: 'Team Solutions',
+         menuItems: [
+            {
+               id: 1,
+               url: '#',
+               text: 'Support',
+            },
+            {
+               id: 2,
+               url: '#',
+               text: 'Sales',
+            },
+            {
+               id: 3,
+               url: '#',
+               text: 'Report Abuse',
+            },
+            {
+               id: 4,
+               url: '#',
+               text: 'System Status',
+            },
+         ],
+      },
+   ],
+   SocialLinks: [
+      {
+         id: 1,
+         title: 'Team Solutions',
+         menuItems: [
+            {
+               id: 1,
+               url: '#',
+               icon: 'ti-facebook',
+            },
+            {
+               id: 2,
+               url: '#',
+               icon: 'ti-twitter-alt',
+            },
+            {
+               id: 3,
+               url: '#',
+               icon: 'ti-vimeo-alt',
+            },
+            {
+               id: 4,
+               url: '#',
+               icon: 'ti-pinterest',
+            },
+         ],
+      },
+   ],
+   socialIcon: [
+      {
+         id: 1,
+         url: 'https://www.facebook.com/',
+         icon: 'ti-facebook',
       },
       {
-        id: 3,
-        url: '#',
-        icon: 'ti-vimeo-alt',
+         id: 2,
+         url: '#',
+         icon: 'ti-twitter-alt',
       },
       {
-        id: 4,
-        url: '#',
-        icon: 'ti-pinterest',
-      }
-    ],
-    copywrite:"© Estradata 2022 Todos los Derechos Reservados.",
-    TestimonialText: [
-      {
-        id: 1,
-        image: "new/member_01.jpg",
-        description: "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
-        authorName: "Phillip Anthropy",
-        authorPost: "UI/UX designer", 
+         id: 3,
+         url: '#',
+         icon: 'ti-vimeo-alt',
       },
       {
-        id: 2,
-        image: "new/member_01.jpg",
-        description: "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
-        authorName: "Phillip Anthropy",
-        authorPost: "UI/UX designer", 
+         id: 4,
+         url: '#',
+         icon: 'ti-pinterest',
+      },
+   ],
+   copywrite: '© Estradata 2022 Todos los Derechos Reservados.',
+   TestimonialText: [
+      {
+         id: 1,
+         image: 'new/member_01.jpg',
+         description:
+            "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
+         authorName: 'Phillip Anthropy',
+         authorPost: 'UI/UX designer',
       },
       {
-        id: 3,
-        image: "new/member_01.jpg",
-        description: "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
-        authorName: "Phillip Anthropy",
-        authorPost: "UI/UX designer", 
+         id: 2,
+         image: 'new/member_01.jpg',
+         description:
+            "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
+         authorName: 'Phillip Anthropy',
+         authorPost: 'UI/UX designer',
       },
       {
-        id: 4,
-        image: "new/member_01.jpg",
-        description: "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
-        authorName: "Phillip Anthropy",
-        authorPost: "UI/UX designer", 
-      }
-    ],
-    aboutLinks: [
-      {
-        id: 1,
-        url: '#',
-        item: 'Developer',
+         id: 3,
+         image: 'new/member_01.jpg',
+         description:
+            "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
+         authorName: 'Phillip Anthropy',
+         authorPost: 'UI/UX designer',
       },
       {
-        id: 2,
-        url: '#',
-        item: 'Blog',
+         id: 4,
+         image: 'new/member_01.jpg',
+         description:
+            "He nicked it hanky panky Eaton naff it's your round quaint cheeky cheers, tomfoolery bonnet posh blimey what a plonker vagabond, zonked Elizabeth give us a bell.?",
+         authorName: 'Phillip Anthropy',
+         authorPost: 'UI/UX designer',
+      },
+   ],
+   aboutLinks: [
+      {
+         id: 1,
+         url: '#',
+         item: 'Developer',
       },
       {
-        id: 3,
-        url: '#',
-        item: 'Investor',
+         id: 2,
+         url: '#',
+         item: 'Blog',
       },
       {
-        id: 4,
-        url: '#',
-        item: 'Sitemap',
+         id: 3,
+         url: '#',
+         item: 'Investor',
       },
       {
-        id: 5,
-        url: '#',
-        item: 'Jobs',
-      }
-    ],
-    helpLinks: [
-      {
-        id: 1,
-        url: '#',
-        item: 'Help and Contact',
+         id: 4,
+         url: '#',
+         item: 'Sitemap',
       },
       {
-        id: 2,
-        url: '#',
-        item: 'Fees',
+         id: 5,
+         url: '#',
+         item: 'Jobs',
+      },
+   ],
+   helpLinks: [
+      {
+         id: 1,
+         url: '#',
+         item: 'Help and Contact',
       },
       {
-        id: 3,
-        url: '#',
-        item: 'Security',
+         id: 2,
+         url: '#',
+         item: 'Fees',
       },
       {
-        id: 4,
-        url: '#',
-        item: 'App',
+         id: 3,
+         url: '#',
+         item: 'Security',
       },
       {
-        id: 5,
-        url: '#',
-        item: 'Shop',
-      }
-    ],
-    PrivacyLinks: [
-      {
-        id: 1,
-        url: '#',
-        item: 'Privacy Policy',
+         id: 4,
+         url: '#',
+         item: 'App',
       },
       {
-        id: 2,
-        url: '#',
-        item: 'Legal Agreement',
+         id: 5,
+         url: '#',
+         item: 'Shop',
+      },
+   ],
+   PrivacyLinks: [
+      {
+         id: 1,
+         url: '#',
+         item: 'Privacy Policy',
       },
       {
-        id: 3,
-        url: '#',
-        item: 'Feedback',
-      }
-    ],
-    about: [
-      {
-        id: 1,
-        url: '/Comedores',
-        text: 'Comedores Asitenciales',
+         id: 2,
+         url: '#',
+         item: 'Legal Agreement',
       },
       {
-        id: 2,
-        url: '/Primeros',
-        text: 'Primeros 1000 Días de Vida',
+         id: 3,
+         url: '#',
+         item: 'Feedback',
+      },
+   ],
+   about: [
+      {
+         id: 1,
+         url: '/Comedores',
+         text: 'Comedores Asitenciales',
       },
       {
-        id: 3,
-        url: '/Paap',
-        text: 'PAAP ',
+         id: 2,
+         url: '/Primeros',
+         text: 'Primeros 1000 Días de Vida',
       },
       {
-        id: 4,
-        url: '/Talleres',
-        text: 'Talleres',
-      }
-    ],
-    Solution: [
-      {
-        id: 1,
-        url: '/Caic',
-        text: 'CAIC',
+         id: 3,
+         url: '/Paap',
+         text: 'PAAP ',
       },
       {
-        id: 2,
-        url: '/Odontologia',
-        text: 'Odontología',
+         id: 4,
+         url: '/Talleres',
+         text: 'Talleres',
+      },
+   ],
+   Solution: [
+      {
+         id: 1,
+         url: '/Caic',
+         text: 'CAIC',
       },
       {
-        id: 3,
-        url: '/Dermatologia',
-        text: 'Dermatología',
+         id: 2,
+         url: '/Odontologia',
+         text: 'Odontología',
       },
       {
-        id: 4,
-        url: '/Homeopatia',
-        text: 'Homeopatía',
+         id: 3,
+         url: '/Dermatologia',
+         text: 'Dermatología',
       },
       {
-        id: 5,
-        url: '/Juridico',
-        text: 'Juridico',
+         id: 4,
+         url: '/Homeopatia',
+         text: 'Homeopatía',
       },
       {
-        id: 6,
-        url: '/Psicologo',
-        text: 'Psicología',
+         id: 5,
+         url: '/Juridico',
+         text: 'Juridico',
       },
       {
-        id: 6,
-        url: '/Ubr',
-        text: 'UBR',
-      },
-    ],
-    teamSolution: [
-      {
-        id: 1,
-        url: '/Index',
-        text: 'Inicio',
+         id: 6,
+         url: '/Psicologo',
+         text: 'Psicología',
       },
       {
-        id: 2,
-        url: '/VisionMision',
-        text: 'Misión y Visión',
+         id: 6,
+         url: '/Ubr',
+         text: 'UBR',
+      },
+   ],
+   teamSolution: [
+      {
+         id: 1,
+         url: '/Index',
+         text: 'Inicio',
       },
       {
-        id: 3,
-        url: '/Programas',
-        text: 'Programas',
+         id: 2,
+         url: '/VisionMision',
+         text: 'Misión y Visión',
       },
       {
-        id: 4,
-        url: '/Servicios',
-        text: 'Servicios',
+         id: 3,
+         url: '/Programas',
+         text: 'Programas',
       },
       {
-        id: 5,
-        url: '/Transparencia',
-        text: 'Transparencia',
+         id: 4,
+         url: '/Servicios',
+         text: 'Servicios',
       },
       {
-        id: 6,
-        url: '/Terminos y Condiciones',
-        text: 'Términos y Condiciones',
+         id: 5,
+         url: '/Transparencia',
+         text: 'Transparencia',
       },
-    ],
+      {
+         id: 6,
+         url: '/Terminos y Condiciones',
+         text: 'Términos y Condiciones',
+      },
+      {
+         id: 7,
+         url: '/AvisoPrivacidad',
+         text: 'Aviso de Privacidad',
+      },
+   ],
 };
 export default FooterData;
