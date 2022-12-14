@@ -13,7 +13,7 @@ class CustomNavbar extends Component {
         <header className="header_area">
           <nav className={`navbar navbar-expand-lg menu_one ${mClass}`}>
             <div className={`container ${cClass}`}>
-              <Link className={`navbar-brand ${slogo}`} to="/Index">
+              <Link className={`navbar-brand ${slogo}`} to="/">
                 <img src={require("../img/logo-jocotepec1.png")} alt="" />
                 <img src={require("../img/logo-jocotepec1.png")} alt="logo" />
               </Link>

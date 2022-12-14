@@ -327,7 +327,7 @@ const FooterData = {
    teamSolution: [
       {
          id: 1,
-         url: '/Index',
+         url: '/',
          text: 'Inicio',
       },
       {

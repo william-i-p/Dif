@@ -20,7 +20,7 @@ class FooterTwo extends Component {
                                         <Reveal effect="fadeInUp" key={widget.id}>
                                             <div className="col-lg-3 col-md-6 text-center">
                                                 <div className="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s">
-                                                <Link to="/Index" className="f-logo"><img src={require('../../img/logo-jocotepec-footer.png')} alt=""/></Link>
+                                                <Link to="/" className="f-logo"><img src={require('../../img/logo-jocotepec-footer.png')} alt=""/></Link>
                                                     <div className="widget-wrap">
                                                         <p className="f_400 f_p f_size_15 mb-0 l_height34"><span>Correo:</span> <a href="mailto:contacto@jocotepec.mx" className="f_400">contacto@jocotepec.mx</a></p>
                                                         <p className="f_400 f_p f_size_15 mb-0 l_height34"><span>Teléfono:</span> <a href="tel:387 763 2799" className="f_400">387 763 2799</a></p>

@@ -1,10 +1,8 @@
 import React from 'react';
 import CustomNavbar from '../components/CustomNavbar';
-import Breadcrumb from '../components/Breadcrumb';
 import FooterTwo from '../components/Footer/FooterTwo';
 import FooterData from '../components/Footer/FooterData';
 import Partner from '../components/Partner';
-import GoogleMaps from '../components/Features/GoogleMaps';
 import BreadcrumbServ from '../components/BreadcrumbServ';
 
 const Caic = () => {
