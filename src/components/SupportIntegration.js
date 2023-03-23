@@ -16,25 +16,25 @@ class SupportIntegration extends Component {
                 {
                     "id": 101,
                     "iImage": "dentista.png",
-                    "text": "Odontologia",
+                    "text": "Odontología",
                     "link": "/Odontologia"
                 },
                 {
                     "id": 102,
                     "iImage": "dermatologia.png",
-                    "text": "Dermatologia",
+                    "text": "Dermatología",
                     "link": "/Dermatologia"
                 },
                 {
                     "id": 103,
                     "iImage": "homeopata.png",
-                    "text": "Homeopatia",
+                    "text": "Homeopatía",
                     "link": "/Homeopatia"
                 },
                 {
                     "id": 104,
                     "iImage": "juridico.png",
-                    "text": "Juridico",
+                    "text": "Jurídico",
                     "link": "/Juridico"
                 },
                 {

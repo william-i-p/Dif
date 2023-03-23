@@ -311,7 +311,7 @@ const FooterData = {
       {
          id: 5,
          url: '/Juridico',
-         text: 'Juridico',
+         text: 'Jurídico',
       },
       {
          id: 6,
