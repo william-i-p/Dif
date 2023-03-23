@@ -1,5 +1,4 @@
 import React from 'react'
-//import inapam from '../img/home-tracking/tarjeta60ymas.jpg'
 import matriminial from '../img/home-tracking/platicasPrematiminiales.jpg'
 
 function BannerNoticias() {
