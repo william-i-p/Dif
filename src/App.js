@@ -18,6 +18,7 @@ import Primeros from './Pages/Primeros';
 import Paap from './Pages/Paap';
 import Talleres from './Pages/Talleres';
 import AvisoPrivacidad from './Pages/AvisoPrivacidad';
+import ScrollToTopRoute from './ScrollToTopRoute';
 
 class App extends Component {
    componentDidMount() {
@@ -27,27 +28,26 @@ class App extends Component {
       return (
          <BrowserRouter>
             <Switch>
-               <Route exact={true} path={'/'} component={Index} />
-               <Route path='/VisionMision' component={VisionMision} />
+               <ScrollToTopRoute exact={true} path={'/'} component={Index} />
+               <ScrollToTopRoute path='/VisionMision' component={VisionMision} />
 
-               <Route path='/Caic' component={Caic} />
-               <Route path='/Odontologia' component={Odontologia} />
-               <Route path='/Dermatologia' component={Dermatologia} />
-               <Route path='/Homeopatia' component={Homeopatia} />
-               <Route path='/Juridico' component={Juridico} />
-               <Route path='/Psicologo' component={Psicologo} />
-               <Route path='/Ubr' component={Ubr} />
-               <Route path='/Programas' component={Programas} />
-               <Route path='/Comedores' component={Comedores} />
-               <Route path='/Primeros' component={Primeros} />
-               <Route path='/Paap' component={Paap} />
-               <Route path='/Talleres' component={Talleres} />
-               <Route path='/Servicios' component={Servicios} />
-               <Route path='/Transparencia' component={Transparencia} />
-               <Route path='/AvisoPrivacidad' component={AvisoPrivacidad} />
+               <ScrollToTopRoute path='/Caic' component={Caic} />
+               <ScrollToTopRoute path='/Odontologia' component={Odontologia} />
+               <ScrollToTopRoute path='/Dermatologia' component={Dermatologia} />
+               <ScrollToTopRoute path='/Homeopatia' component={Homeopatia} />
+               <ScrollToTopRoute path='/Juridico' component={Juridico} />
+               <ScrollToTopRoute path='/Psicologo' component={Psicologo} />
+               <ScrollToTopRoute path='/Ubr' component={Ubr} />
+               <ScrollToTopRoute path='/Programas' component={Programas} />
+               <ScrollToTopRoute path='/Comedores' component={Comedores} />
+               <ScrollToTopRoute path='/Primeros' component={Primeros} />
+               <ScrollToTopRoute path='/Paap' component={Paap} />
+               <ScrollToTopRoute path='/Talleres' component={Talleres} />
+               <ScrollToTopRoute path='/Servicios' component={Servicios} />
+               <ScrollToTopRoute path='/Transparencia' component={Transparencia} />
+               <ScrollToTopRoute path='/AvisoPrivacidad' component={AvisoPrivacidad} />
 
-               <Route path='/' component={Index} />
-               {/*aqui va */}
+               <ScrollToTopRoute path='/' component={Index} />
             </Switch>
          </BrowserRouter>
       );
