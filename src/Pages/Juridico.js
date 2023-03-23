@@ -47,7 +47,7 @@ const Juridico = () => {
                   <h3>COSTOS</h3>
                </div>
 
-               <table class='table table-borderless mt-5 m-auto'>
+               <table className='table table-borderless mt-5 m-auto'>
                   <thead>
                      <tr>
                         <th scope='col' className='col-6'>
