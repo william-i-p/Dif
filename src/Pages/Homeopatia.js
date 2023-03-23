@@ -30,7 +30,7 @@ const Homeopatia = () => {
                         <h3>COSTO</h3>
                     </div>
                     <div>
-                        <p>$20 pesos Mx</p>
+                        <p>$20.00 mxn</p>
                     </div>
                 </div>
             </div>
