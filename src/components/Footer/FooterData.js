@@ -319,7 +319,7 @@ const FooterData = {
          text: 'Psicología',
       },
       {
-         id: 6,
+         id: 7,
          url: '/Ubr',
          text: 'UBR',
       },
