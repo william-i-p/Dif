@@ -12,10 +12,10 @@ class CustomNavbar extends Component {
       <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
         <header className="header_area">
           <nav className={`navbar navbar-expand-lg menu_one ${mClass}`}>
-            <div className={`container ${cClass}`}>
+            <div className={`container bg-brand ${cClass}`}>
               <Link className={`navbar-brand ${slogo}`} to="/">
-                <img src={require("../img/logo-jocotepec1.png")} alt="" />
-                <img src={require("../img/logo-jocotepec1.png")} alt="logo" />
+                <img src={require("../img/logo-white.png")} alt="" />
+                <img src={require("../img/logo-white.png")} alt="logo" />
               </Link>
               <button
                 className="navbar-toggler collapsed"

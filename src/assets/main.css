@@ -975,7 +975,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .menu > .nav-item > .nav-link {
   font: 500 15px "Poppins", sans-serif;
-  color: #051441;
+  color: white;
   padding: 0px;
   -webkit-transition: color 0.3s ease 0s;
   -o-transition: color 0.3s ease 0s;
