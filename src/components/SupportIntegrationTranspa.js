@@ -64,14 +64,14 @@ class SupportIntegrationTranspa extends Component {
                                  >
                                     <Link
                                        to={post.link}
-                                       className='s_integration_item'
+                                       className='s_integration_item bg-brand'
                                     >
                                        <img
                                           src={require('../img/new-home/' +
                                              post.iImage)}
                                           alt=''
                                        />
-                                       <h5>{post.text}</h5>
+                                       <h5 className="text-white">{post.text}</h5>
                                     </Link>
                                  </div>
                               );
@@ -84,7 +84,7 @@ class SupportIntegrationTranspa extends Component {
                               >
                                  <a
                                     href={post.link}
-                                    className='s_integration_item'
+                                    className='s_integration_item bg-brand'
                                     target="_blank"
                                     rel="noopener noreferrer"
                                  >
@@ -93,7 +93,7 @@ class SupportIntegrationTranspa extends Component {
                                           post.iImage)}
                                        alt=''
                                     />
-                                    <h5>{post.text}</h5>
+                                    <h5 className="text-white">{post.text}</h5>
                                  </a>
                               </div>
                            );

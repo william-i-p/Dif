@@ -21,7 +21,7 @@ class SupportIntProgramas extends Component {
                 {
                     "id": 112,
                     "iImage": "paap.png",
-                    "text": "PAAP",
+                    "text": "Asistencia Alimentaria a Personas de Atención Prioritaria",
                     "link": "/Paap"
                 },
                 {
@@ -45,9 +45,9 @@ class SupportIntProgramas extends Component {
                                 {this.state.integrationItem.map(post =>(
                                     <div className="col-lg-6 col-md-6 col-sm-6" key={post.id}>
                                         {/*<a href="/Service" className="s_integration_item"> */}
-                                        <Link to={post.link} className="s_integration_item">
+                                        <Link to={post.link} className="s_integration_item bg-brand text-white">
                                             <img src={require ("../img/new-home/" + post.iImage)} alt=""/>
-                                            <h5>{post.text}</h5>
+                                            <h5 className="text-white">{post.text}</h5>
                                         </Link>
                                     </div>
                                 ))}

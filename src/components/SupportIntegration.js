@@ -9,8 +9,8 @@ class SupportIntegration extends Component {
             integrationItem:[
                 {
                     "id": 100,
-                    "iImage": "caic2.png",
-                    "text": "CAIC",
+                    "iImage": "caic.png",
+                    "text": "Centro de Asistencia Infantil Comunitario (CAIC)",
                     "link": "/Caic"
                 },
                 {
@@ -46,7 +46,7 @@ class SupportIntegration extends Component {
                 {
                     "id": 106,
                     "iImage": "ubr.png",
-                    "text": "UBR",
+                    "text": "Unidad Básica de Rehabilitación",
                     "link": "/Ubr"
                 }
             ]
@@ -64,9 +64,9 @@ class SupportIntegration extends Component {
                                 {this.state.integrationItem.map(post =>(
                                     <div className="col-lg-6 col-md-6 col-sm-6" key={post.id}>
                                         {/*<a href="/Service" className="s_integration_item"> */}
-                                        <Link to={post.link} className="s_integration_item">
+                                        <Link to={post.link} className="s_integration_item bg-brand">
                                             <img src={require ("../img/new-home/" + post.iImage)} alt=""/>
-                                            <h5>{post.text}</h5>
+                                            <h5 className="text-white">{post.text}</h5>
                                         </Link>
                                     </div>
                                 ))}

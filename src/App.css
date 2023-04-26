@@ -33,7 +33,9 @@
 }
 
 :root {
-   --brand-color: rgba(233, 173, 202);
+   --brand-color: rgb(245, 184, 213);
+
+   /*  273, 173, 202 */
 }
 
 .bg-brand {
