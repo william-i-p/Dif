@@ -3,7 +3,7 @@ import BannerNoticias from '../BannerNoticias';
 import TrackingProductItem from './TrackingProductItem';
 
 
-class TrackingProduct extends Component{
+class News extends Component{
     render(){
         return(
             
@@ -19,4 +19,4 @@ class TrackingProduct extends Component{
     }
 }
 
-export default TrackingProduct;
+export default News;

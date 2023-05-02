@@ -46,7 +46,7 @@ class SupportIntegration extends Component {
                 {
                     "id": 106,
                     "iImage": "ubr.png",
-                    "text": "Unidad Básica de Rehabilitación",
+                    "text": "Unidad Básica de Rehabilitación (UBR)",
                     "link": "/Ubr"
                 }
             ]
