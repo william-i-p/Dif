@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
-import BannerNoticias from '../BannerNoticias';
-import TrackingProductItem from './TrackingProductItem';
-
+import NewsCarousel from '../NewsCarousel';
 
 class News extends Component{
     render(){
@@ -12,7 +10,7 @@ class News extends Component{
                     <h3>NUESTRAS NOTICIAS</h3><br></br>
                 </div>
                 <div className="container">
-                    <BannerNoticias />
+                    <NewsCarousel />
                 </div>
             </section>
         )

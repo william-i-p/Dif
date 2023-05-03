@@ -6,7 +6,6 @@ import FooterData from '../components/Footer/FooterData'
 import FooterTwo from '../components/Footer/FooterTwo'
 import Partner from '../components/Partner'
 import FacebookWidget from '../components/Features/FacebookWidget'
-import ServicesBanner from '../components/Features/ServicesBanner'
 
 const Index = () => {
    return (
@@ -19,7 +18,6 @@ const Index = () => {
          <TrackingBanner />
 
          <News />
-         <ServicesBanner />
 
          <FacebookWidget />
          <div className='row'>
