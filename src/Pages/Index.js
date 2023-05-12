@@ -6,6 +6,7 @@ import FooterData from '../components/Footer/FooterData'
 import FooterTwo from '../components/Footer/FooterTwo'
 import Partner from '../components/Partner'
 import FacebookWidget from '../components/Features/FacebookWidget'
+import InstagramWidget from '../components/Features/InstagramWidget'
 
 const Index = () => {
    return (
@@ -20,6 +21,8 @@ const Index = () => {
          <News />
 
          <FacebookWidget />
+         <InstagramWidget />
+         
          <div className='row'>
             <div className='container text-center pt_160 sec_pad_b'>
                <h3>MAPA DEL CENTRO DE ATENCIÓN:</h3>
@@ -30,10 +33,10 @@ const Index = () => {
                ></iframe>
             </div>
          </div>
+
          <Partner pClass='partner_logo_area_two' pClasst='pt-0 mb-0' />
-         {/**esta es la parte de los logos de la dependencia */}
+
          <FooterTwo fClass='pt_150' FooterData={FooterData} />
-         {/**esta es la parte footer */}
       </div>
    )
 }
