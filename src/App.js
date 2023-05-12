@@ -34,7 +34,6 @@ class App extends Component {
                <ScrollToTopRoute path='/Caic' component={Caic} />
                <ScrollToTopRoute path='/Odontologia' component={Odontologia} />
                <ScrollToTopRoute path='/Dermatologia' component={Dermatologia} />
-               <ScrollToTopRoute path='/Homeopatia' component={Homeopatia} />
                <ScrollToTopRoute path='/Juridico' component={Juridico} />
                <ScrollToTopRoute path='/Psicologo' component={Psicologo} />
                <ScrollToTopRoute path='/Ubr' component={Ubr} />

@@ -4,7 +4,7 @@ import Breadcrumb from '../components/Breadcrumb';
 import Partner from '../components/Partner';
 import FooterTwo from '../components/Footer/FooterTwo';
 import FooterData from '../components/Footer/FooterData';
-import SupportIntegration from '../components/SupportIntegration';
+import ServicesList from '../components/ServicesList';
 import GoogleMaps from '../components/Features/GoogleMaps';
 
 const Servicios = () => {
@@ -12,7 +12,7 @@ const Servicios = () => {
         <div className="body_wrapper">
             <CustomNavbar mClass="menu_tracking" nClass="mr-auto" hbtnClass="tracking_btn"/>{/* ESTA ES LA PARTE DEL MENU DEL HOME */}
             <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="SERVICIOS" Pdescription="DIF Jocotepec dispone de los siguientes servicios:"/>
-            <SupportIntegration/>
+            <ServicesList/>
             <div className='row'>
             <div className='container text-center pt_160 sec_pad_b'>
                 <h3>Mapa del centro de atención:</h3>

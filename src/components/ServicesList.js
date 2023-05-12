@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Sectitle from './Title/Sectitle';
 import { Link } from "react-router-dom";
 
-class SupportIntegration extends Component {
+class ServicesList extends Component {
     constructor(){
         super();
         this.state = {
@@ -24,12 +24,6 @@ class SupportIntegration extends Component {
                     "iImage": "dermatologia.png",
                     "text": "Dermatología",
                     "link": "/Dermatologia"
-                },
-                {
-                    "id": 103,
-                    "iImage": "homeopata.png",
-                    "text": "Homeopatía",
-                    "link": "/Homeopatia"
                 },
                 {
                     "id": 104,
@@ -79,4 +73,4 @@ class SupportIntegration extends Component {
         )
     }
 }
-export default SupportIntegration;
+export default ServicesList;
