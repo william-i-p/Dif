@@ -20,7 +20,7 @@ const Ubr = () => {
             imgName='breadcrumb/banner_bg.png'
             Ptitle='Unidad Básica de Rehabilitación'
             Pdescription=''
-            imgServ='home4/ubr.png'
+            imgServ='new-home/ubr.png'
          />
 
          <div className='container process_area  sec_pad pl-30 pr-30 mt_90 mb_20'>

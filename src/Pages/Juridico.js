@@ -20,7 +20,7 @@ const Juridico = () => {
             imgName='breadcrumb/banner_bg.png'
             Ptitle='Asesoría Jurídica'
             Pdescription=''
-            imgServ='home4/juridico.png'
+            imgServ='new-home/juridico.png'
          />
 
          <div className='container process_area  sec_pad pl-30 pr-30 mt_90 mb_20'>

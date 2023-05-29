@@ -20,7 +20,7 @@ const Psicologo = () => {
             imgName='breadcrumb/banner_bg.png'
             Ptitle='Psicología'
             Pdescription=''
-            imgServ='home4/psicologo.png'
+            imgServ='new-home/psicologo.png'
          />
 
          <div className='container process_area  sec_pad pl-30 pr-30 mt_90 mb_20'>

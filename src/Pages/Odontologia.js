@@ -21,7 +21,7 @@ const Odontologia = () => {
             imgName='breadcrumb/banner_bg.png'
             Ptitle='Odontología'
             Pdescription=''
-            imgServ='home4/dentista.png'
+            imgServ='new-home/dentista.png'
          />
 
          <div className='container process_area  sec_pad pl-30 pr-30 mt_90 mb_20'>

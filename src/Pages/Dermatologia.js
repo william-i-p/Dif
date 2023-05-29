@@ -12,7 +12,7 @@ const Dermatologia = () => {
         <div className="body_wrapper">
             <CustomNavbar mClass="menu_tracking" nClass="mr-auto" hbtnClass="tracking_btn"/>
             {/* <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Dermatologia" Pdescription=""/> */}
-            <BreadcrumbServ breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Dermatología" Pdescription="" imgServ="home4/dermatologia.png" />
+            <BreadcrumbServ breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Dermatología" Pdescription="" imgServ="new-home/dermatologia.png" />
            
             <div className='container process_area  sec_pad pl-30 pr-30 mt_90 mb_20'>
                 <div className='features_info text-center responsivomovil'>
