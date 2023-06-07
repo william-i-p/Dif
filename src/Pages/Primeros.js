@@ -12,8 +12,7 @@ const Primeros = () => {
         <div className="body_wrapper">
             <CustomNavbar mClass="menu_tracking" nClass="mr-auto" hbtnClass="tracking_btn"/>{/* ESTA ES LA PARTE DEL MENU DEL HOME */}
             {/*<CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu ml-auto mr-auto"/> */}
-            {/* <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Primeros 1000 Días de Vida" Pdescription=""/> */}
-            <BreadcrumbServ breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Primeros 1000 días de vida" Pdescription="" imgServ="new-home/1000dias.png" />
+            <BreadcrumbServ breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Programa de Atención Alimentaria en los Primeros 1,000 días" Pdescription="" imgServ="new-home/1000dias.png" />
 
             <div className='container process_area  sec_pad pl-30 pr-30 mt_90 mb_20'>
                 <div className='features_info text-center responsivomovil'>
@@ -32,9 +31,6 @@ const Primeros = () => {
                 <p>3. Comprobante de Domicilio Vigente</p>
                 <p>4. INE del reponsable de recoger la despensa en caso de no poder recogerla el beneficiario</p>
                 <p className='text-justify'>Las inscripciones se realizan de manera anual comenzando el mes de noviembre y terminando el més de febrero. Las listas de los beneficiarios serán publicadas por medios electrónicos, de manera física en las oficinas centrales de DIF Jocotepec y en las delegaciones.</p>
-                    </div>
-                    <div>
-                        <p className='text-justify'>Se tiene como objetivo ayudar a la población en su alimentación complementaria durante sus primeros 1000 días de vida, es decir, desde la etapa de embarazo hasta los primeros 2 años de edad, dando prioridad a las personas con mayor grado de marginación,  desnutrición y obesidad.</p>
                     </div>
                 </div>
             </div>

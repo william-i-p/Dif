@@ -12,8 +12,7 @@ const Paap = () =>{
         <div className="body_wrapper">
             <CustomNavbar mClass="menu_tracking" nClass="mr-auto" hbtnClass="tracking_btn"/>{/* ESTA ES LA PARTE DEL MENU DEL HOME */}
             {/*<CustomNavbar slogo="sticky_logo" mClass="menu_four" nClass="w_menu ml-auto mr-auto"/> */}
-           {/*  <Breadcrumb breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Programa de Asistencia Alimentaria a Personas de Atención Prioritaria (PAAP)" Pdescription=""/> */}
-            <BreadcrumbServ breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Programa de Asistencia Alimentaria a Personas de Atención Prioritaria (PAAP)" Pdescription="" imgServ="new-home/paap.png" />
+            <BreadcrumbServ breadcrumbClass="breadcrumb_area" imgName="breadcrumb/banner_bg.png" Ptitle="Programa de Atención Alimentaria a Grupos Prioritarios" Pdescription="" imgServ="new-home/paap.png" />
     
             <div className='container process_area  sec_pad pl-30 pr-30 mt_90 mb_20'>
                 <div className='features_info text-center responsivomovil'>

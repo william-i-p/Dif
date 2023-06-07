@@ -1,18 +1,25 @@
 import React from 'react'
 import matrimonialImg from '../img/home-tracking/platicasPrematiminiales.jpg'
 import serviciosImg from '../img/home-tracking/servicesBanner.png'
+import iteiIMG from '../img/home-tracking/bannerITEI.jpeg'
+
 import { Link } from 'react-router-dom'
 
 //const images =
 const carouselImages = [
    {
       id: 1,
+      src: iteiIMG,
+      alt: 'ITEI',
+   },
+   {
+      id: 2,
       src: serviciosImg,
       alt: 'Servicios de Dif Jocotepec',
       linkTo: '/Servicios',
    },
    {
-      id: 2,
+      id: 3,
       src: matrimonialImg,
       alt: 'Requisitos del Curso Prematrimonial',
    },
@@ -27,16 +34,15 @@ function NewsCarousel() {
             data-ride='carousel'
          >
             <ol className='carousel-indicators'>
-               <li
-                  data-target='#carouselExampleIndicators'
-                  data-slide-to='0'
-                  className='active'
-               ></li>
-               <li
-                  data-target='#carouselExampleIndicators'
-                  data-slide-to='1'
-               ></li>
+               {carouselImages.map((_, i) => (
+                  <li
+                     data-target='#carouselExampleIndicators'
+                     data-slide-to={i}
+                     className='active'
+                  />
+               ))}
             </ol>
+            
             <div className='carousel-inner'>
                {carouselImages.map((item, i) => {
                   const isActive = i === 0

@@ -15,13 +15,13 @@ class SupportIntProgramas extends Component {
                 {
                     "id": 111,
                     "iImage": "1000dias.png",
-                    "text": "Primero 1000 Días de Vida",
+                    "text": "Programa de Atención Alimentaria en los Primeros 1,000 días",
                     "link": "/Primeros"
                 },
                 {
                     "id": 112,
                     "iImage": "paap.png",
-                    "text": "Asistencia Alimentaria a Personas de Atención Prioritaria",
+                    "text": "Programa de Atención Alimentaria a Grupos Prioritarios",
                     "link": "/Paap"
                 },
                 {

@@ -274,7 +274,7 @@ const FooterData = {
       {
          id: 2,
          url: '/Primeros',
-         text: 'Primeros 1000 Días de Vida',
+         text: 'Programa de Atención Alimentaria en los Primeros 1,000 días',
       },
       {
          id: 3,
