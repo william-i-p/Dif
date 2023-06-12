@@ -5,6 +5,11 @@ import Partner from '../components/Partner'
 import FooterData from '../components/Footer/FooterData'
 import BreadcrumbServ from '../components/BreadcrumbServ'
 
+import Img1 from '../img/talleres/talleresdif001.jpeg'
+import Img2 from '../img/talleres/talleresdif002.jpeg'
+
+import '../assets/talleres.css'
+
 const workshops = {
    forChildren: [
       'Panadería',
@@ -59,15 +64,21 @@ const Talleres = () => {
             </div>
          </div>
 
-         <div className='container process_area  sec_pad pl-30 pr-30 mt_20 mb_20'>
-            <div className='features_info text-center responsivomovil'>
-               <h3>Talleres para Niñas, Niños y Adolescentes:</h3>
-               {workshops.forChildren.map((workshop, i) => (
-                  <p key={i}>
-                     {i + 1}. {workshop}
-                  </p>
-               ))}
+         <div className='d-flex px-5'>
+            <img src={Img1} alt='Talleres-01' className='img-taller left' />
+
+            <div className='container process_area sec_pad pl-30 pr-30 mt_20 mb_20'>
+               <div className='features_info text-center responsivomovil'>
+                  <h3>Talleres para Niñas, Niños y Adolescentes:</h3>
+                  {workshops.forChildren.map((workshop, i) => (
+                     <p key={i}>
+                        {i + 1}. {workshop}
+                     </p>
+                  ))}
+               </div>
             </div>
+
+            <img src={Img2} alt='Talleres-02' className='img-taller right' />
          </div>
 
          <div className='container process_area  sec_pad pl-30 pr-30 mt_20 mb_20'>

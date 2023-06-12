@@ -1,0 +1,21 @@
+.img-taller {
+   width: 550px;
+}
+
+@media (max-width: 2300px) {
+   .img-taller {
+      width: 500px;
+   }
+}
+
+@media (max-width: 1600px) {
+   .img-taller {
+      width: 350px;
+   }
+}
+
+@media (max-width: 1400px) {
+   .img-taller {
+      display: none;
+   }
+}
