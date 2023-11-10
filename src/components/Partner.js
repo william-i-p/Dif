@@ -53,9 +53,11 @@ class Partner extends Component {
                            rel='noopener noreferrer'
                         >
                            <img
-                              className='altura'
-                              src={require('../img/home-tracking/PNT-logo.png')}
-                              alt=''
+                              alt='PNT logo'
+                              src={require('../img/home-tracking/PNT-logo.jpeg')}
+                              style={{
+                                 height: 250,
+                              }}
                            />
                         </a>
                      </div>
