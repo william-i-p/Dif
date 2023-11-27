@@ -54,9 +54,25 @@ class Partner extends Component {
                         >
                            <img
                               alt='PNT logo'
-                              src={require('../img/home-tracking/PNT-logo.jpeg')}
+                              src={require('../img/home-tracking/PNT-logo.png')}
                               style={{
                                  height: 250,
+                              }}
+                           />
+                        </a>
+                     </div>
+
+                     <div data-wow-delay='0.5s'>
+                        <a
+                           href='https://consultapublicamx.plataformadetransparencia.org.mx/vut-web/?idSujetoObigadoParametro=2480&idEntidadParametro=14'
+                           target='_blank'
+                           rel='noopener noreferrer'
+                        >
+                           <img
+                              alt='Obligaciones'
+                              src={require('../img/home-tracking/obligaciones.png')}
+                              style={{
+                                 height: 200,
                               }}
                            />
                         </a>
