@@ -18,33 +18,6 @@ class Partner extends Component {
                            />
                         </a>
                      </div>
-                     <div data-wow-delay='0.2s'>
-                        <a
-                           href='https://www.infomexjalisco.org.mx/InfomexJalisco/'
-                           target='_blank'
-                           rel='noopener noreferrer'
-                        >
-                           <img
-                              className='altura'
-                              src={require('../img/home-tracking/infomex.jpg')}
-                              alt=''
-                           />
-                        </a>
-                     </div>
-
-                     <div data-wow-delay='0.3s'>
-                        <a
-                           href='https://snt.org.mx/'
-                           target='_blank'
-                           rel='noopener noreferrer'
-                        >
-                           <img
-                              className='altura'
-                              src={require('../img/home-tracking/sinatra.jpg')}
-                              alt=''
-                           />
-                        </a>
-                     </div>
 
                      <div data-wow-delay='0.4s'>
                         <a
