@@ -1,16 +1,15 @@
 import React from 'react'
 import matrimonialImg from '../img/home-tracking/platicasPrematiminiales.jpg'
 import serviciosImg from '../img/home-tracking/servicesBanner.png'
-import iteiIMG from '../img/home-tracking/bannerITEI.jpeg'
+import iteiIMG from '../img/home-tracking/difusion-red.jpg'
 
 import { Link } from 'react-router-dom'
 
-//const images =
 const carouselImages = [
    {
       id: 1,
       src: iteiIMG,
-      alt: 'ITEI',
+      alt: 'Difusión de Red Banner',
    },
    {
       id: 2,
