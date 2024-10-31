@@ -159,7 +159,6 @@ const FooterData = {
          icon: 'ti-pinterest',
       },
    ],
-   copywrite: '© Estradata 2022 Todos los Derechos Reservados.',
    TestimonialText: [
       {
          id: 1,
